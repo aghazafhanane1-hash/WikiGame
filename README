@@ -1,4 +1,3 @@
-
 # WikiGame
 
 Ce projet est un WikiGame développé en Python qui permet de naviguer entre des pages Wikipedia pour atteindre un objectif précis. Le programme utilise la console pour l’interaction avec l’utilisateur, affiche des couleurs et permet de récupérer des informations depuis le web.
@@ -18,11 +17,10 @@ pip install beautifulsoup4 requests InquirerPy colorama PyPDF2 pdfplumber
 
 ### Bibliothèques expliquées :
 
-- beautifulsoup4 : Pour parser le HTML si vous devez extraire des PDFs depuis des pages web
+- beautifulsoup4 : Pour parser le HTML et récupérer les liens des pages Wikipedia
 - requests : Pour télécharger des fichiers depuis Internet
-- InquirerPy : Pour créer des menus et demander des informations à l'utilisateur
+- InquirerPy : Pour demander des entrées à l’utilisateur via des menus interactifs
 - colorama : Pour afficher du texte en couleur dans la console
-- os : Module standard, utilisé pour ouvrir les PDFs
 - threading : Module standard, pour exécuter des tâches simultanément
 - time : Module standard, pour les pauses ou temporisations
 
@@ -35,7 +33,7 @@ pip install beautifulsoup4 requests InquirerPy colorama PyPDF2 pdfplumber
 python -m venv env
 env\\Scripts\\activate   # Windows
 source env/bin/activate  # Linux/Mac
-pip install beautifulsoup4 requests InquirerPy colorama PyPDF2 pdfplumber
+pip install beautifulsoup4 requests InquirerPy colorama 
 
 ---
 
@@ -52,4 +50,5 @@ python programme.py
 
 
 ---
+
 
