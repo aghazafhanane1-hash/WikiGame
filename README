@@ -13,7 +13,7 @@ Ce projet est un WikiGame développé en Python qui permet de naviguer entre des
 
 Avant d'exécuter le programme, installez toutes les bibliothèques nécessaires avec `pip`. Ouvrez CMD et exécutez :
 
-pip install beautifulsoup4 requests InquirerPy colorama PyPDF2 pdfplumber
+pip install beautifulsoup4 requests InquirerPy colorama 
 
 ### Bibliothèques expliquées :
 
@@ -50,5 +50,6 @@ python programme.py
 
 
 ---
+
 
 
