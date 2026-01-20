@@ -1,0 +1,55 @@
+
+# WikiGame
+
+Ce projet est un WikiGame développé en Python qui permet de naviguer entre des pages Wikipedia pour atteindre un objectif précis. Le programme utilise la console pour l’interaction avec l’utilisateur, affiche des couleurs et permet de récupérer des informations depuis le web.
+
+## Prérequis
+
+- Python 3.8 ou supérieur  
+- Système d'exploitation : Windows (pour `os.startfile`) ou Linux/Mac (adaptable)  
+
+---
+
+## Installation des dépendances
+
+Avant d'exécuter le programme, installez toutes les bibliothèques nécessaires avec `pip`. Ouvrez CMD et exécutez :
+
+pip install beautifulsoup4 requests InquirerPy colorama PyPDF2 pdfplumber
+
+### Bibliothèques expliquées :
+
+- beautifulsoup4 : Pour parser le HTML si vous devez extraire des PDFs depuis des pages web
+- requests : Pour télécharger des fichiers depuis Internet
+- InquirerPy : Pour créer des menus et demander des informations à l'utilisateur
+- colorama : Pour afficher du texte en couleur dans la console
+- os : Module standard, utilisé pour ouvrir les PDFs
+- threading : Module standard, pour exécuter des tâches simultanément
+- time : Module standard, pour les pauses ou temporisations
+
+> Note : `os`, `threading` et `time` ne nécessitent pas d'installation.
+
+---
+
+## Créer un environnement virtuel (optionnel mais recommandé)
+
+python -m venv env
+env\\Scripts\\activate   # Windows
+source env/bin/activate  # Linux/Mac
+pip install beautifulsoup4 requests InquirerPy colorama PyPDF2 pdfplumber
+
+---
+
+## Utilisation du programme
+
+1. Allez dans le dossier du projet dans CMD :
+
+cd C:\\chemin\\vers\\votre\\projet
+
+2. Exécutez le programme :
+
+python programme.py
+
+
+
+---
+
